@@ -1,7 +1,11 @@
-def reverse_each_word(sentence1)
-  sentence1.split(' ')
-  sentence1.each do |word|
+def reverse_each_word(sentence)
+  sentence.each do 
+    split(' ')
+  end
+  sentence.each do |word|
     word.reverse!
   end
-  sentence1.join(' ')
+  sentence.each do 
+    sentence1.join(' ')
+  end
 end
